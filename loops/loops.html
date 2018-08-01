@@ -18,6 +18,27 @@ var randomInt = getRandomInt(1, 100);
 /* END STARTING CODE */
 
 // your code goes under here
+guess = 0;
+var randomNum =prompt("guess a number between 1 to 100!");
+randomNum = parseInt(randomNum);
+
+if (randomNum > randomInt){
+	document.write("you guessed too high");
+}
+
+	else if (randomNum < randomInt){
+		document.write("you guessed too low!")
+	}
+
+		else {
+			document.write("good for you!, you guessed the right number!")
+		}
+	
+
+// while (randomInt != randomNum){
+// 	guess++;
+// 	document.write("you gussed " + guess +" times");
+// }
 
     </script>
 </body>
